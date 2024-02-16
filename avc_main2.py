@@ -66,8 +66,6 @@ y_trigger=args["y_trigger"]
 lokasi_log=gerbang+"_"+id_gardu
 
 
-
-
 ## INISIALISASI CAPTURE VIDEO
 cap = cv2.VideoCapture(RTSP_CAM1)
 vtype=""
