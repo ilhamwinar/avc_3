@@ -256,7 +256,7 @@ while cap.isOpened():
         cv2.rectangle(frame, (0,500), (1280, 720), (0,0,0), -1)
         
         #Tracking AI
-        results = model.track(frame, persist=True, conf=0.4 , classes=[2,5,7], verbose=False, agnostic_nms=False, max_det=1)
+        results = model.track(frame, persist=True, conf=0.4 , classes=[2,5,7], verbose=False, agnostic_nms=False, max_det=2)
 
         try:
             for i, r in enumerate(results):
