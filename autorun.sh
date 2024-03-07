@@ -1,5 +1,5 @@
-# !/bin/bash
-# !/usr/bin/env python3
+##!/bin/bash
+##!/usr/bin/env python3
 
 export DISPLAY=:0 #needed if you are running a simple gui app.
 
